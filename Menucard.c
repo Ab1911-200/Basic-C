@@ -3,7 +3,7 @@
 
  int main(void){
     int choice;
-    printf("1 for porotta\n2 for biriyani\n3 for fd\n4 for mandhi");
+    printf("1 for porotta\n2 for biriyani\n3 for fried rice\n4 for mandhi");
     scanf("%d",&choice);
     switch(choice){
         case 1:
@@ -13,11 +13,11 @@
         printf("You have selected biriyani");
         break;
         case 3:
-        printf("fd");
+        printf("You have selected fried rice");
         break;
-        case 4:("mandhi");
+        case 4:("You have selected mandhi");
         break;
         default:
-        printf("fool");
+        printf("You have selected wrong dish try again!!");
     }
  }
